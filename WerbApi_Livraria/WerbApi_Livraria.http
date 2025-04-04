@@ -1,0 +1,6 @@
+@WerbApi_Livraria_HostAddress = http://localhost:5012
+
+GET {{WerbApi_Livraria_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
