@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WerbApi_Livraria.props" />
+</Project>
