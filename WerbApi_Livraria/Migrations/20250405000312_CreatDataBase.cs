@@ -27,6 +27,8 @@ namespace WerbApi_Livraria.Migrations
             migrationBuilder.CreateTable(
                 name: "Livros",
                 columns: table => new
+
+
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),

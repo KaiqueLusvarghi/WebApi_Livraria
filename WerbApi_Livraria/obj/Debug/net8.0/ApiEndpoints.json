@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "WerbApi_Livraria.Controllers.AutorController",
+    "Method": "GetAllAutores",
+    "RelativePath": "api/Autor/GetAllAutores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WerbApi_Livraria.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WerbApi_Livraria.Models.AutorModel, WerbApi_Livraria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WerbApi_Livraria.Controllers.AutorController",
+    "Method": "GetAutorId",
+    "RelativePath": "api/Autor/GetAutorId/{idAutor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idAutor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WerbApi_Livraria.Models.ResponseModel\u00601[[WerbApi_Livraria.Models.AutorModel, WerbApi_Livraria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
