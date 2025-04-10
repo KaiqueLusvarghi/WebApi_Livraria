@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|c:\\dev c#\\webapi_livraria\\werbapi_livraria\\werbapi_livraria\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|solutionrelative:werbapi_livraria\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|c:\\dev c#\\webapi_livraria\\werbapi_livraria\\werbapi_livraria\\services\\autor\\autorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|solutionrelative:werbapi_livraria\\services\\autor\\autorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|c:\\dev c#\\webapi_livraria\\werbapi_livraria\\werbapi_livraria\\models\\autormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|solutionrelative:werbapi_livraria\\models\\autormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|c:\\dev c#\\webapi_livraria\\werbapi_livraria\\werbapi_livraria\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|solutionrelative:werbapi_livraria\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|c:\\dev c#\\webapi_livraria\\werbapi_livraria\\werbapi_livraria\\services\\autor\\iautorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|solutionrelative:werbapi_livraria\\services\\autor\\iautorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|c:\\dev c#\\webapi_livraria\\werbapi_livraria\\werbapi_livraria\\dtos\\autor\\editautordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|solutionrelative:werbapi_livraria\\dtos\\autor\\editautordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|c:\\dev c#\\webapi_livraria\\werbapi_livraria\\werbapi_livraria\\dtos\\autor\\createautordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4287D478-71B0-44A2-BA4E-21112C988C5D}|WerbApi_Livraria\\WerbApi_Livraria.csproj|solutionrelative:werbapi_livraria\\dtos\\autor\\createautordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "EditAutorDto.cs",
+              "DocumentMoniker": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Dtos\\Autor\\EditAutorDto.cs",
+              "RelativeDocumentMoniker": "WerbApi_Livraria\\Dtos\\Autor\\EditAutorDto.cs",
+              "ToolTip": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Dtos\\Autor\\EditAutorDto.cs",
+              "RelativeToolTip": "WerbApi_Livraria\\Dtos\\Autor\\EditAutorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T23:45:44.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutorModel.cs",
+              "DocumentMoniker": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Models\\AutorModel.cs",
+              "RelativeDocumentMoniker": "WerbApi_Livraria\\Models\\AutorModel.cs",
+              "ToolTip": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Models\\AutorModel.cs",
+              "RelativeToolTip": "WerbApi_Livraria\\Models\\AutorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T23:17:06.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateAutorDto.cs",
+              "DocumentMoniker": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Dtos\\Autor\\CreateAutorDto.cs",
+              "RelativeDocumentMoniker": "WerbApi_Livraria\\Dtos\\Autor\\CreateAutorDto.cs",
+              "ToolTip": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Dtos\\Autor\\CreateAutorDto.cs",
+              "RelativeToolTip": "WerbApi_Livraria\\Dtos\\Autor\\CreateAutorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T23:16:14.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AutorController.cs",
               "DocumentMoniker": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Controllers\\AutorController.cs",
               "RelativeDocumentMoniker": "WerbApi_Livraria\\Controllers\\AutorController.cs",
               "ToolTip": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Controllers\\AutorController.cs",
               "RelativeToolTip": "WerbApi_Livraria\\Controllers\\AutorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T23:43:59.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AutorServices.cs",
               "DocumentMoniker": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Services\\Autor\\AutorServices.cs",
               "RelativeDocumentMoniker": "WerbApi_Livraria\\Services\\Autor\\AutorServices.cs",
               "ToolTip": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Services\\Autor\\AutorServices.cs",
               "RelativeToolTip": "WerbApi_Livraria\\Services\\Autor\\AutorServices.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAcwCkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwKEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T23:43:47.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IAutorInterface.cs",
               "DocumentMoniker": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Services\\Autor\\IAutorInterface.cs",
               "RelativeDocumentMoniker": "WerbApi_Livraria\\Services\\Autor\\IAutorInterface.cs",
               "ToolTip": "C:\\Dev C#\\WebApi_Livraria\\WerbApi_Livraria\\WerbApi_Livraria\\Services\\Autor\\IAutorInterface.cs",
               "RelativeToolTip": "WerbApi_Livraria\\Services\\Autor\\IAutorInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T23:38:56.614Z",
               "EditorCaption": ""
