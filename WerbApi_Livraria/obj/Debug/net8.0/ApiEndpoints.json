@@ -148,5 +148,155 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "WerbApi_Livraria.Controllers.LivroController",
+    "Method": "CreateLivro",
+    "RelativePath": "api/Livro/CreateLivro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createLivroDto",
+        "Type": "WerbApi_Livraria.Dtos.Livro.CreateLivroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WerbApi_Livraria.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WerbApi_Livraria.Models.LivroModel, WerbApi_Livraria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WerbApi_Livraria.Controllers.LivroController",
+    "Method": "DeleteLivro",
+    "RelativePath": "api/Livro/DeleteLivro",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idLivro",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WerbApi_Livraria.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WerbApi_Livraria.Models.LivroModel, WerbApi_Livraria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WerbApi_Livraria.Controllers.LivroController",
+    "Method": "EditLivro",
+    "RelativePath": "api/Livro/EditLivro",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editLivroDto",
+        "Type": "WerbApi_Livraria.Dtos.Livro.EditLivroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WerbApi_Livraria.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WerbApi_Livraria.Models.LivroModel, WerbApi_Livraria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WerbApi_Livraria.Controllers.LivroController",
+    "Method": "GetAllLivros",
+    "RelativePath": "api/Livro/GetAllLivros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WerbApi_Livraria.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WerbApi_Livraria.Models.LivroModel, WerbApi_Livraria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WerbApi_Livraria.Controllers.LivroController",
+    "Method": "GetLivroByIdAutor",
+    "RelativePath": "api/Livro/GetAutorByIdLivro/{idAutor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idAutor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WerbApi_Livraria.Models.ResponseModel\u00601[[WerbApi_Livraria.Models.LivroModel, WerbApi_Livraria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WerbApi_Livraria.Controllers.LivroController",
+    "Method": "GetlivroId",
+    "RelativePath": "api/Livro/GetLivroId/{idLivro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idLivro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WerbApi_Livraria.Models.ResponseModel\u00601[[WerbApi_Livraria.Models.LivroModel, WerbApi_Livraria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
