@@ -20,7 +20,7 @@ namespace WerbApi_Livraria.Services.Livro
             ResponseModel<List<LivroModel>> resposta = new ResponseModel<List<LivroModel>>();
             try
             {
-                var livros = await _context.Livros.ToListAsync();
+                var livros = await _context.Livros.Include(a => a.Autor).ToListAsync();
 
                 resposta.Dados = livros;
                 resposta.Mensagem = "Todos Livros foram coletados !";
@@ -41,7 +41,7 @@ namespace WerbApi_Livraria.Services.Livro
             ResponseModel<LivroModel> resposta = new ResponseModel<LivroModel>(); //Variavél de resposta
             try
             {
-                var livro = await _context.Livros.FirstOrDefaultAsync(livroBanco => livroBanco.Id == idLivro);
+                var livro = await _context.Livros.Include(a => a.Autor).FirstOrDefaultAsync(livroBanco => livroBanco.Id == idLivro);
                 if (livro == null)
                 {
                     resposta.Mensagem = $"Nenhum Livro com o id = {idLivro} encontrado";
