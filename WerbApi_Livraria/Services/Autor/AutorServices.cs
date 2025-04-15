@@ -75,6 +75,7 @@ namespace WerbApi_Livraria.Services.Autor
                 if(livro == null)
                 {
                     resposta.Mensagem = "Nenhum registro encontrado !";
+                    return resposta;
                 }
                 resposta.Dados = livro?.Autor;
                 resposta.Mensagem = "Autor localizado";
@@ -87,8 +88,7 @@ namespace WerbApi_Livraria.Services.Autor
                 resposta.Status = false;
                 return resposta;
             }
-
-            return resposta;
+           
         }
 
         public async Task<ResponseModel<List<AutorModel>>> CreateAutor(CreateAutorDto createAutorDto)
